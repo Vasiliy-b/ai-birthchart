@@ -1,0 +1,231 @@
+{"data":{"nathal":"{\"astro_details\":{\"Ascendant\":\"\"},\"planets_position\":[{\"id\":0,\"Name\":\"Sun\",\"nakshatra\":\"Shravan\",\"sign_degree\":\"15:11:15\",\"House\":6,\"sign\":\"Capricorn\",\"sign_lord\":\"Saturn\",\"IsRetro\":false,\"NakshatraName\":\"Shravan\",\"NormDegree\":15.1875},{\"id\":1,\"Name\":\"Moon\",\"nakshatra\":\"Bharni\",\"sign_degree\":\"19:52:45\",\"House\":9,\"sign\":\"Aries\",\"sign_lord\":\"Mars\",\"IsRetro\":false,\"NakshatraName\":\"Bharni\",\"NormDegree\":19.879166666666666},{\"id\":2,\"Name\":\"Mars\",\"nakshatra\":\"Ashwini\",\"sign_degree\":\"3:5:8\",\"House\":9,\"sign\":\"Aries\",\"sign_lord\":\"Mars\",\"IsRetro\":false,\"NakshatraName\":\"Ashwini\",\"NormDegree\":3.0855555555555556},{\"id\":3,\"Name\":\"Mercury\",\"nakshatra\":\"PurvaShadha\",\"sign_degree\":\"23:50:32\",\"House\":5,\"sign\":\"Sagittarius\",\"sign_lord\":\"Jupiter\",\"IsRetro\":false,\"NakshatraName\":\"PurvaShadha\",\"NormDegree\":23.842222222222222},{\"id\":4,\"Name\":\"Jupiter\",\"nakshatra\":\"PurvaPhalguni\",\"sign_degree\":\"23:56:58\",\"House\":1,\"sign\":\"Leo\",\"sign_lord\":\"Sun\",\"IsRetro\":false,\"NakshatraName\":\"PurvaPhalguni\",\"NormDegree\":23.949444444444445},{\"id\":5,\"Name\":\"Venus\",\"nakshatra\":\"PurvaBhadrapad\",\"sign_degree\":\"24:10:56\",\"House\":7,\"sign\":\"Aquarius\",\"sign_lord\":\"Saturn\",\"IsRetro\":false,\"NakshatraName\":\"PurvaBhadrapad\",\"NormDegree\":24.182222222222222},{\"id\":6,\"Name\":\"Saturn\",\"nakshatra\":\"Ardra\",\"sign_degree\":\"13:39:29\",\"House\":11,\"sign\":\"Gemini\",\"sign_lord\":\"Mercury\",\"IsRetro\":false,\"NakshatraName\":\"Ardra\",\"NormDegree\":13.658055555555556},{\"id\":7,\"Name\":\"Rahu\",\"nakshatra\":\"Bharni\",\"sign_degree\":\"22:42:36\",\"House\":9,\"sign\":\"Aries\",\"sign_lord\":\"Mars\",\"IsRetro\":false,\"NakshatraName\":\"Bharni\",\"NormDegree\":22.71},{\"id\":8,\"Name\":\"Ketu\",\"nakshatra\":\"Vishakha\",\"sign_degree\":\"22:42:36\",\"House\":3,\"sign\":\"Libra\",\"sign_lord\":\"Venus\",\"IsRetro\":false,\"NakshatraName\":\"Vishakha\",\"NormDegree\":22.71},{\"id\":9,\"Name\":\"Ascendant\",\"nakshatra\":\"UttraPhalguni\",\"sign_degree\":\"29:42:27\",\"House\":1,\"sign\":\"Leo\",\"sign_lord\":\"Sun\",\"IsRetro\":false,\"NakshatraName\":\"UttraPhalguni\",\"NormDegree\":29.7075}]}",
+"additionals":{"elements":"Fire","varna":"Kshatriy","energies":"Male","puru":"Artha, Dharma","soul":"Venus","karma":"Mercury","attention":"Artha, Dharma"},
+"dates":[{"lunarDay":2,"date":"2025-01-01","nakshatra":"21","holidays":null},
+{"lunarDay":3,"date":"2025-01-02","nakshatra":"22","holidays":null},
+{"lunarDay":4,"date":"2025-01-03","nakshatra":"23","holidays":null},
+{"lunarDay":5,"date":"2025-01-04","nakshatra":"24","holidays":null},
+{"lunarDay":6,"date":"2025-01-05","nakshatra":"25","holidays":null},
+{"lunarDay":7,"date":"2025-01-06","nakshatra":"26","holidays":null},
+{"lunarDay":8,"date":"2025-01-07","nakshatra":"27","holidays":null},
+{"lunarDay":9,"date":"2025-01-08","nakshatra":"1","holidays":null},
+{"lunarDay":10,"date":"2025-01-09","nakshatra":"2","holidays":null},
+{"lunarDay":11,"date":"2025-01-10","nakshatra":"3","holidays":null},
+{"lunarDay":12,"date":"2025-01-11","nakshatra":"4","holidays":null},
+{"lunarDay":13,"date":"2025-01-12","nakshatra":"5","holidays":null},
+{"lunarDay":15,"date":"2025-01-13","nakshatra":"6","holidays":null},
+{"lunarDay":16,"date":"2025-01-14","nakshatra":"7","holidays":null},
+{"lunarDay":17,"date":"2025-01-15","nakshatra":"8","holidays":null},
+{"lunarDay":18,"date":"2025-01-16","nakshatra":"9","holidays":null},
+{"lunarDay":19,"date":"2025-01-17","nakshatra":"10","holidays":null},
+{"lunarDay":20,"date":"2025-01-18","nakshatra":"11","holidays":null},
+{"lunarDay":20,"date":"2025-01-19","nakshatra":"12","holidays":null},
+{"lunarDay":21,"date":"2025-01-20","nakshatra":"13","holidays":null},
+{"lunarDay":22,"date":"2025-01-21","nakshatra":"14","holidays":null},
+{"lunarDay":23,"date":"2025-01-22","nakshatra":"15","holidays":null},
+{"lunarDay":24,"date":"2025-01-23","nakshatra":"15","holidays":null},
+{"lunarDay":25,"date":"2025-01-24","nakshatra":"16","holidays":null},
+{"lunarDay":26,"date":"2025-01-25","nakshatra":"17","holidays":null},
+{"lunarDay":27,"date":"2025-01-26","nakshatra":"18","holidays":null},
+{"lunarDay":28,"date":"2025-01-27","nakshatra":"19","holidays":null},
+{"lunarDay":29,"date":"2025-01-28","nakshatra":"20","holidays":null},
+{"lunarDay":30,"date":"2025-01-29","nakshatra":"21","holidays":null},
+{"lunarDay":1,"date":"2025-01-30","nakshatra":"22","holidays":null},
+{"lunarDay":2,"date":"2025-01-31","nakshatra":"23","holidays":null}]}
+}
+
+
+{
+    "data": {
+      "nathal": "{\"astro_details\":{\"Ascendant\":\"str\"},\"planets_position\":[{\"id\":0,\"Name\":\"str\",\"nakshatra\":\"str\",\"sign_degree\":\"str\",\"House\":0,\"sign\":\"str\",\"sign_lord\":\"str\",\"IsRetro\":false,\"NakshatraName\":\"str\",\"NormDegree\":0},{\"id\":0,\"Name\":\"str\",\"nakshatra\":\"str\",\"sign_degree\":\"str\",\"House\":0,\"sign\":\"str\",\"sign_lord\":\"str\",\"IsRetro\":false,\"NakshatraName\":\"str\",\"NormDegree\":0},{\"id\":0,\"Name\":\"str\",\"nakshatra\":\"str\",\"sign_degree\":\"str\",\"House\":0,\"sign\":\"str\",\"sign_lord\":\"str\",\"IsRetro\":false,\"NakshatraName\":\"str\",\"NormDegree\":0},{\"id\":0,\"Name\":\"str\",\"nakshatra\":\"str\",\"sign_degree\":\"str\",\"House\":0,\"sign\":\"str\",\"sign_lord\":\"str\",\"IsRetro\":false,\"NakshatraName\":\"str\",\"NormDegree\":0},{\"id\":0,\"Name\":\"str\",\"nakshatra\":\"str\",\"sign_degree\":\"str\",\"House\":0,\"sign\":\"str\",\"sign_lord\":\"str\",\"IsRetro\":false,\"NakshatraName\":\"str\",\"NormDegree\":0},{\"id\":0,\"Name\":\"str\",\"nakshatra\":\"str\",\"sign_degree\":\"str\",\"House\":0,\"sign\":\"str\",\"sign_lord\":\"str\",\"IsRetro\":false,\"NakshatraName\":\"str\",\"NormDegree\":0},{\"id\":0,\"Name\":\"str\",\"nakshatra\":\"str\",\"sign_degree\":\"str\",\"House\":0,\"sign\":\"str\",\"sign_lord\":\"str\",\"IsRetro\":false,\"NakshatraName\":\"str\",\"NormDegree\":0},{\"id\":0,\"Name\":\"str\",\"nakshatra\":\"str\",\"sign_degree\":\"str\",\"House\":0,\"sign\":\"str\",\"sign_lord\":\"str\",\"IsRetro\":false,\"NakshatraName\":\"str\",\"NormDegree\":0},{\"id\":0,\"Name\":\"str\",\"nakshatra\":\"str\",\"sign_degree\":\"str\",\"House\":0,\"sign\":\"str\",\"sign_lord\":\"str\",\"IsRetro\":false,\"NakshatraName\":\"str\",\"NormDegree\":0},{\"id\":0,\"Name\":\"str\",\"nakshatra\":\"str\",\"sign_degree\":\"str\",\"House\":0,\"sign\":\"str\",\"sign_lord\":\"str\",\"IsRetro\":false,\"NakshatraName\":\"str\",\"NormDegree\":0}]}",
+      "additionals": {
+        "elements": "str",
+        "varna": "str",
+        "energies": "str",
+        "puru": "str",
+        "soul": "str",
+        "karma": "str",
+        "attention": "str"
+      },
+      "dates": [
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        },
+        {
+          "lunarDay": 0,
+          "date": "str",
+          "nakshatra": "str",
+          "holidays": null
+        }
+      ]
+    },
+    "success": false,
+    "message": "str",
+    "statusCode": 0,
+    "cache": 0
+  }
+  
