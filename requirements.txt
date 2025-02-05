@@ -1,0 +1,6 @@
+langgraph
+langchain-google-genai
+langchain-core
+typing-extensions
+langchain_anthropic
+langchain-community
