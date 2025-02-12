@@ -1,10 +1,7 @@
 {
   "dockerfile_lines": [],
   "graphs": {
-    "ai_birthchart": "./ai_birthchart.py:graph",
-    "ai_memory": "./ai_memory.py:graph",
-    "ai_birthchart_part": "./ai_birthchart_part.py:graph",
-    "ai_birthchart_memory": "./ai_birthchart_memory.py:graph"
+    "ai_birthchart": "./ai_birthchart.py:graph"
   },
   "env": "./.env",
   "python_version": "3.12",
