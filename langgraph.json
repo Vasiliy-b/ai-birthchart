@@ -1,7 +1,16 @@
 {
   "dockerfile_lines": [],
   "graphs": {
-    "ai_birthchart": "./ai_birthchart.py:graph"
+    "ai_birthchart": "./ai_birthchart.py:graph",
+    "translator_en": "./translate_EN.py:graph",
+    "translator_es": "./translate_ES.py:graph",
+    "translator_fr": "./translate_FR.py:graph",
+    "translator_it": "./translate_IT.py:graph",
+    "translator_de": "./translate_DE.py:graph",
+    "translator_pt": "./translate_PT.py:graph",
+    "translate_CH_Simple": "./translate_CH_Simple.py:graph",
+    "translate_CH_Traditional": "./translate_CH_Trad.py:graph",
+    "translator_RU": "./translate_RU.py:graph"
   },
   "env": "./.env",
   "python_version": "3.12",
