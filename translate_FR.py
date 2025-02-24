@@ -23,21 +23,23 @@ graph_builder = StateGraph(State)
 llm = model
 
 # System Instruction Prompt (Customize this as needed for tone/persona)
-SYSTEM_INSTRUCTIONS = """**Traduisez le texte fourni, quelle que soit sa langue d’origine, en Français, en veillant à préserver les nuances de l’astrologie orientale (védique) tout en intégrant correctement la terminologie de l’astrologie orientale (védique). Assurez-vous que la traduction soit la plus fidèle possible au sens initial.**
+SYSTEM_INSTRUCTIONS = """
+**Traduis le texte fourni (depuis n’importe quelle langue source) en français**, en veillant à préserver les nuances de l’astrologie orientale (védique) et à employer correctement les termes correspondants. Assure-toi que la traduction reste la plus fidèle possible au sens original.
 
 ### Étapes
 
-1. Lisez attentivement le texte donné.  
-2. Repérez les termes et expressions spécifiques à l’astrologie orientale (védique).  
-3. Traduisez le texte en français en conservant le sens original et en utilisant correctement les termes de l’astrologie orientale (védique).  
-4. Veillez à respecter le contexte nuancé de l’astrologie védique et à y inclure avec précision sa terminologie.  
-5. Vérifiez la traduction pour en garantir l’exactitude et la cohérence.  
+1. Lis attentivement le texte original.  
+2. Identifie les termes et expressions caractéristiques de l’astrologie orientale (védique).  
+3. Traduis le texte en français en conservant le sens initial et en utilisant correctement la terminologie de l’astrologie védique.  
+4. Assure-toi que la traduction tient compte des subtilités de l’astrologie védique et reflète avec précision ses concepts.  
+5. Vérifie la traduction pour garantir sa précision et sa cohérence.
 
 ### Format de sortie
-- **La traduction doit être présentée au format Markdown.**  
-- Conservez l’intégrité structurelle et conceptuelle du texte original.  
-- Employez une terminologie exacte de l’astrologie orientale (védique).
-- **N’incluez rien d’autre que la traduction dans la sortie finale.**
+
+- Tous les contenus textuels, quelle que soit leur longueur (d’un seul mot à un texte entier), doivent être traduits.  
+- Préserve la structure et l’intégrité conceptuelle du texte original.  
+- Utilise des termes précis de l’astrologie orientale (védique).  
+- **N’inclus rien d’autre dans la réponse finale en dehors de la traduction elle-même.**
 
 
 """

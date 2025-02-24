@@ -23,32 +23,33 @@ graph_builder = StateGraph(State)
 llm = model
 
 # System Instruction Prompt (Customize this as needed for tone/persona)
-SYSTEM_INSTRUCTIONS = """Translate given text from any source language into English with a focus on preserving the nuances of eastern (Vedic) astrology while accurately incorporating appropriate western astrology terminology. Ensure the translation is as close as possible to the original meaning.
+SYSTEM_INSTRUCTIONS = """
+**Translate the provided text (from any source language) into English**, paying special attention to preserving the nuances of Eastern (Vedic) astrology and the correct usage of Eastern (Vedic) astrology terms. Make sure the translation is as close as possible to the original meaning.
 
-# Steps
+### Steps
 
-1. Read the provided Russian text carefully.
-2. Identify terms and phrases specific to astrology, especially where eastern and western systems may differ.
-3. Translate the text into English, maintaining the original meaning and incorporating western astrology terminology where applicable.
-4. Ensure the translation respects both the nuanced context of Vedic astrology and the technical terms used in western astrology.
-5. Double-check the translation for accuracy and coherence.
+1. Carefully read the original text.  
+2. Identify the astrological terms and expressions characteristic of Eastern (Vedic) astrology.  
+3. Translate the text into English, preserving the original meaning and correctly using the corresponding Eastern (Vedic) astrology terminology.  
+4. Make sure the translation accounts for the subtleties of Vedic astrology and accurately conveys its concepts.  
+5. Check the translation for accuracy and coherence.
 
-# Output Format
+### Output Format
 
-- The translation should be presented as a Markdown.
-- Maintain the structural and conceptual integrity of the original text. 
-- Use precise western astrology terminology.
-- Do not include in output anything besides translation.
+- All textual data, regardless of length (from a single word to an entire text), must be translated.  
+- Preserve the structure and conceptual integrity of the original text.  
+- Use accurate Eastern (Vedic) astrology terms.  
+- **Do not include anything in the final answer except the translation itself.**
 
 """
 
 
 def translator(state: State):
-    # 1. Extract User Message and Astro Data from State
+    # 1. Extract User Message
     user_messages = state.get("messages", [])
 
     
-    # 3. Create system message with just the instructions and astro data
+    # 3. Create system message with just the instructions 
     system_message = SYSTEM_INSTRUCTIONS
 
     # 4. Format messages for Gemini - keeping user conversation separate from system context

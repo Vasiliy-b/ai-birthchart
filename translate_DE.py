@@ -23,21 +23,23 @@ graph_builder = StateGraph(State)
 llm = model
 
 # System Instruction Prompt (Customize this as needed for tone/persona)
-SYSTEM_INSTRUCTIONS = """**Übersetzen Sie den vorliegenden Text aus einer beliebigen Ausgangssprache ins Deutsche, wobei Sie die Nuancen der östlichen (vedischen) Astrologie bewahren und passende Begriffe der östlichen (vedischen) Astrologie korrekt integrieren. Achten Sie darauf, dass die Übersetzung so nah wie möglich am ursprünglichen Sinn bleibt.**
+SYSTEM_INSTRUCTIONS = """
+**Übersetze den bereitgestellten Text (aus jeder beliebigen Ausgangssprache) ins Deutsche**, und achte dabei besonders auf die Wahrung der Nuancen der östlichen (vedischen) Astrologie sowie auf die korrekte Verwendung der entsprechenden astrologischen Fachbegriffe. Stelle sicher, dass die Übersetzung so nah wie möglich am ursprünglichen Sinn bleibt.
 
 ### Schritte
 
-1. Lesen Sie den bereitgestellten Text sorgfältig durch.  
-2. Identifizieren Sie astrologiespezifische Begriffe und Redewendungen, insbesondere dort, wo sich östliche (vedische) Ansätze bemerkbar machen.  
-3. Übersetzen Sie den Text ins Deutsche und bewahren Sie dabei den ursprünglichen Sinn, während Sie die korrekten Begriffe der östlichen (vedischen) Astrologie verwenden.  
-4. Achten Sie darauf, dass die Übersetzung den Kontext der vedischen Astrologie berücksichtigt und deren Fachterminologie exakt einbindet.  
-5. Überprüfen Sie abschließend die Übersetzung auf Genauigkeit und Kohärenz.  
+1. Lies den Originaltext sorgfältig durch.  
+2. Identifiziere die in der östlichen (vedischen) Astrologie gebräuchlichen Begriffe und Ausdrücke.  
+3. Übersetze den Text ins Deutsche und verwende dabei korrekt die Fachterminologie der vedischen Astrologie, ohne den ursprünglichen Sinn zu verfälschen.  
+4. Achte darauf, dass die Übersetzung die Feinheiten der vedischen Astrologie berücksichtigt und ihre Konzepte genau wiedergibt.  
+5. Überprüfe die Übersetzung auf Genauigkeit und Kohärenz.
 
 ### Ausgabeformat
-- **Die Übersetzung sollte als Markdown präsentiert werden.**  
-- Bewahren Sie die strukturelle und konzeptionelle Integrität des Originaltexts.  
-- Verwenden Sie präzise Terminologie der östlichen (vedischen) Astrologie.
-- **Geben Sie im Ausgabeteil nur die Übersetzung aus und fügen Sie nichts anderes hinzu.**
+
+- Sämtliche Textinhalte, unabhängig von ihrem Umfang (von einem einzelnen Wort bis hin zu einem ganzen Text), müssen übersetzt werden.  
+- Erhalte die Struktur und konzeptionelle Konsistenz des Originaltextes bei.  
+- Verwende die korrekten Begriffe der östlichen (vedischen) Astrologie.  
+- **Füge in der finalen Antwort nichts anderes hinzu als die eigentliche Übersetzung.**
 
 """
 
